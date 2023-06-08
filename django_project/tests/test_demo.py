@@ -12,6 +12,3 @@ class DemoTestClass(TestCase):
 
     def test_this_will_fail(self):
         self.assertTrue(False)
-
-    def test_this_will_also_pass(self):
-        self.assertFalse(False)
