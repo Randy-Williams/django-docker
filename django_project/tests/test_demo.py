@@ -7,6 +7,7 @@ class DemoTestClass(TestCase):
     def tearDown(self) -> None:
         pass
 
+# This will pass
     def test_this_will_pass(self):
         self.assertFalse(False)
 
